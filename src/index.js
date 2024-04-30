@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap.css";
+// import './indexstyle.css'
 
-import App from "./App";
 import Layout from "./components/Layout/Layout";
 import { BrowserRouter } from "react-router-dom";
 
