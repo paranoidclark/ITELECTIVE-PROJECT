@@ -1,0 +1,26 @@
+.product-item {
+    cursor: pointer;
+}
+
+.product-info h3 {
+    font-size: 1.1rem;
+    color: #111;
+    margin-top: 15px;
+}
+
+.product-info span {
+    font-size: 0.9rem;
+}
+
+.product-card-bottom .price {
+    font-size: 1rem;
+}
+
+.product-card-bottom span i {
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.product-card-bottom span i:hover {
+    color: #244855;
+}

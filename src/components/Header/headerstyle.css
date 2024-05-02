@@ -7,44 +7,108 @@
     box-sizing: border-box;
 }
 
-.header {
+.nav-container {
     width: 100%;
-    height: 70px;
-    line-height: 70px;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
 }
 
-.nav__wrapper {
+.announcements {
+    width: 100%;
+    height: 5.5vh;
+    background-color: #244855;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcements h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+.announcements span {
+    text-decoration: underline;
+    padding-left: 1rem;
+    font-weight: 300;
+}
+
+.header {
+    margin-top: 0.5rem;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    column-gap: 8px;
-}
-
-.logo img {
-    width: 40px;
-    height: 40px;
 }
 
 .logo h1 {
     padding: 0;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     font-style: italic;
+    color: #244855;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    content: '';
+    background: #244855;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    font-weight: 700;
+    z-index: 10;
 }
 
 .menu {
     display: flex;
     align-items: center;
     column-gap: 2.7rem;
+    margin: 0;
+    padding: 0;
+    /* margin-bottom: 1rem; */
 }
 
-.nav__item a {
+.menu ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.7rem;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    display: flex;
+    font-size: 0.9rem;
     font-weight: 300;
     cursor: pointer;
 }
@@ -68,4 +132,8 @@ ul {
 a {
     text-decoration: none;
     color: unset;
+}
+
+i {
+    font-size: 1.7rem;
 }
