@@ -92,7 +92,7 @@ const myProducts = [
     },
     {
         id: '09',
-        name: 'Nike Air Presto',
+        name: 'Nike Air Presto 800 Orange Juice',
         imgUrl: productImg09,
         price: "₱3,180",
         category: 'shoes',
@@ -116,7 +116,7 @@ const myProducts = [
     },
     {
         id: '12',
-        name: 'Urban Flow',
+        name: "Urban Flow Men's Sneaker",
         imgUrl: productImg12,
         price: "₱3,742.31",
         category: 'shoes',
@@ -132,7 +132,7 @@ const myProducts = [
     },
     {
         id: '14',
-        name: 'ADIDAS VL COURT 2.0',
+        name: 'ADIDAS VL COURT 2.0 | SAMBA',
         imgUrl: productImg14,
         price: "₱3,742.31",
         category: 'shoes',

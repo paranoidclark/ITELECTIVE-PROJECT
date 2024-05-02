@@ -6,16 +6,49 @@
     padding-bottom: 30px;
 }
 
-.about h3 {
+h3 {
     color: #FBE9D0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
+    letter-spacing: 0.3rem;
+    margin-bottom: 20px;
+}
+
+.footer-link ul li,
+.subletter input {
+    background: transparent !important
+}
+
+.footer-link ul li a,
+.subletter p {
+    color: #FBE9D0;
+    font-size: 0.9rem;
+    font-weight: 200;
 }
 
 .signup-email {
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #FBE9D0;
     padding-right: 80px;
+    caret-color: #FBE9D0;
+}
+
+.signup-email,
+select {
+    color: #FBE9D0;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.signup-email::placeholder {
+    color: #FBE9D0;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.signup-email:focus {
+    outline: none;
 }
 
 .email-icon i {
@@ -23,4 +56,20 @@
     position: relative;
     top: 6px;
     right: 25px;
+    color: #FBE9D0;
+}
+
+.subletter-icons {
+    display: flex;
+    color: #FBE9D0;
+    margin-top: 10px;
+    gap: 2rem;
+}
+
+.footer-copyright {
+    color: #FBE9D0;
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
 }

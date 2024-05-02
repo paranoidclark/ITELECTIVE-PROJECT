@@ -9,7 +9,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col lg="3">
-                        <div className="about">
+                        <div className="footer-link about">
                             <h3>About Sole Search</h3>
                             <ListGroup>
                                 <ListGroupItem className='ps-0 border-0'>
@@ -34,7 +34,7 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col lg="3">
-                        <div className="service">
+                        <div className="footer-link service">
                             <h3>Customer Service</h3>
                             <ListGroup>
                                 <ListGroupItem className='ps-0 border-0'>
@@ -58,7 +58,7 @@ const Footer = () => {
                             </ListGroup>
                         </div>
                     </Col>
-                    <Col lg="6">
+                    <Col lg="4">
                         <div className="subletter">
                             <h3>Sign up for Sole Search news</h3>
                             <p>Be the first to know about our special offers, upcoming sales, special events, new arrivals, and more.</p>
