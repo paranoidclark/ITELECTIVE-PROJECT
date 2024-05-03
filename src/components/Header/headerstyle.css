@@ -65,6 +65,7 @@
     font-weight: 700;
     font-style: italic;
     color: #244855;
+    cursor: pointer;
 }
 
 .nav-icons {
@@ -75,6 +76,7 @@
 
 .cart-icon {
     position: relative;
+    cursor: pointer;
 }
 
 .badge {
@@ -88,6 +90,7 @@
     font-size: 0.5rem;
     font-weight: 700;
     z-index: 10;
+
 }
 
 .menu {
@@ -126,6 +129,11 @@ body {
 
 img {
     width: 100%;
+}
+
+span {
+    margin: 0;
+    padding: 0;
 }
 
 section {

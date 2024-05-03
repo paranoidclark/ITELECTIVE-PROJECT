@@ -1,12 +1,23 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import './headerstyle.css'
 import { useSelector } from 'react-redux'
 
+import { NavLink, useNavigate } from 'react-router-dom'
+
 const Header = () => {
+    const navigate = useNavigate()
     const totalQuantity = useSelector(state => state.cart.totalQuantity)
 
     let dummy = (totalQuantity > 0 ? "!" : "")
+
+    const navigateToHome = () => {
+        navigate('/home')
+    }
+
+    const navigateToCart = () => {
+        navigate('/cart')
+    }
+
 
     return (
         <div className="nav-container">
@@ -21,14 +32,14 @@ const Header = () => {
 
                 <div className="logo">
                     <div>
-                        <h1>Sole Search</h1>
+                        <h1 onClick={navigateToHome}>Sole Search</h1>
                     </div>
                 </div>
 
                 <div className="nav-icons">
-                    <span className="cart-icon">
+                    <span className="cart-icon" onClick={navigateToCart}>
                         <i class="ri-archive-line"></i>
-                        <span className='badge'>{dummy}</span>
+                        <span className='badge' >{dummy}</span>
                     </span>
                     <span><i class="ri-user-line"></i></span>
                 </div>
@@ -53,6 +64,7 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
+
         </div>
     )
 }

@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
             id: product.id,
             name: product.name,
             price: product.price,
-            image: product.imgUrl,
+            imgUrl: product.imgUrl,
         }))
 
         alert('Added to the cart!')
@@ -31,7 +31,7 @@ const ProductCard = ({ product }) => {
                     <span>{product.brand}</span>
                 </div>
                 <div className="product-card-bottom d-flex align-items-center justify-content-center p-2">
-                    <span className="price">{product.price}</span>
+                    <span className="price">₱{product.price}</span>
                     <motion.span whileTap={{ scale: 2 }} whileHover={{ scale: 1.2 }} transition={{ duration: 0.1 }} onClick={addToCart}><i class="ri-add-circle-line"></i></motion.span>
                 </div>
             </div>

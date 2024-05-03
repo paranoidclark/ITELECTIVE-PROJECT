@@ -1,0 +1,40 @@
+.login-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #244855;
+    letter-spacing: 0.1rem;
+}
+
+.auth-form {
+    padding: 20px;
+}
+
+.form-group h5 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.auth-btn {
+    border: none;
+    outline: none;
+    padding: 12px 90px;
+    border-radius: 5px;
+    background: #244855;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+p a {
+    color: #244855;
+    font-weight: 500;
+}
