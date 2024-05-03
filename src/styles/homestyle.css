@@ -44,7 +44,10 @@
 
 .title {
     color: #874F41;
-    font-weight: 600;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 10px;
 }
 
 .brand-container {
