@@ -90,8 +90,43 @@
     font-size: 0.5rem;
     font-weight: 700;
     z-index: 10;
-
 }
+
+.profile {
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+
+.profile .profile-actions {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 90px;
+    z-index: 10;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #244855;
+    color: white;
+    line-height: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.6rem;
+    display: none;
+    cursor: pointer;
+}
+
+.showActions {
+    display: block !important;
+}
+
+.two-choices a:hover {
+    color: #874841;
+}
+
 
 .menu {
     display: flex;
