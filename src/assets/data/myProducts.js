@@ -144,7 +144,7 @@ const myProducts = [
         imgUrl: productImg15,
         price: 1151.48,
         category: 'shoes',
-        brand: 'A brand-new, unused, and unworn item that is not in original retail packaging   ',
+        brand: 'A brand-new, unused, and unworn item that is not in original retail packaging',
     },
     {
         id: '16',
@@ -152,7 +152,7 @@ const myProducts = [
         imgUrl: productImg16,
         price: 3931.42,
         category: 'shoes',
-        brand: ' A brand-new, unused, and unworn item in the original packaging',
+        brand: 'A brand-new, unused, and unworn item in the original packaging',
     },
 ]
 

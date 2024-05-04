@@ -16,7 +16,6 @@ const Home = () => {
 
     useEffect(() => {
         const filteredpopularProducts = myProducts.filter(product => product.category === 'popular')
-
         const filteredcollections = myProducts.filter(product => product.category === 'shoes')
 
         setpopularProducts(filteredpopularProducts)
